@@ -1,14 +1,8 @@
 import React from 'react'
-import { SafeAreaView, StyleSheet, Text, View, Image } from 'react-native'
-import Config from 'react-native-config'
+import { SafeAreaView, StyleSheet, Text, Image } from 'react-native'
 
-global.appConfig = {
-  envName: Config.ENV,
-  buildVersion: Config.BUILD_VERSION,
-  appVersion: Config.APP_VERSION,
-  appName: Config.APP_NAME,
-  appId: Config.APP_ID,
-}
+import '@common/Constants'
+import '@network/Fetch'
 
 const App = () => {
   return (

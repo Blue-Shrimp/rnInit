@@ -1,4 +1,4 @@
-package com.rninit;
+package com.rnInit;
 
 import com.facebook.react.ReactActivity;
 
